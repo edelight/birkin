@@ -1,0 +1,30 @@
+{
+  "name": "birkin",
+  "version": "1.0.0",
+  "description": "immutable key/value store",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "eslint": "^2.8.0",
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "mocha test/."
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/m90/birkin.git"
+  },
+  "keywords": [
+    "key",
+    "value",
+    "store",
+    "immutable",
+    "map"
+  ],
+  "author": "Frederik Ring <frederik.ring@gmail.com>",
+  "license": "MIT"
+}
