@@ -1,6 +1,6 @@
 {
   "name": "birkin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "immutable key/value store",
   "main": "index.js",
   "directories": {

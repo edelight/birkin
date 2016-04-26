@@ -3,7 +3,12 @@ var __is = function(type){
 		return Object.prototype.toString.call(el) === '[object ' + type + ']';
 	};
 };
-var _isObject = __is('Object');
+var _isObject = function(el){
+	if (!el) return false;
+	return !(el.constructor
+		&& !Object.prototype.hasOwnProperty.call(el, 'constructor')
+		&& !Object.prototype.hasOwnProperty.call(el.constructor.prototype, 'isPrototypeOf'));
+};
 var _isString = __is('String');
 var _slice = function(el, index){
 	return Array.prototype.slice.call(el, index);
