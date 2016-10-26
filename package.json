@@ -1,6 +1,6 @@
 {
   "name": "birkin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "immutable key/value store",
   "main": "index.js",
   "directories": {
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/m90/birkin.git"
+    "url": "github.com/edelight/birkin.git"
   },
   "keywords": [
     "key",

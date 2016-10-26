@@ -1,6 +1,6 @@
 # birkin
 
-[![Build Status](https://travis-ci.org/m90/birkin.svg?branch=master)](https://travis-ci.org/m90/birkin)
+[![Build Status](https://travis-ci.org/edelight/birkin.svg?branch=master)](https://travis-ci.org/edelight/birkin)
 
 > simple and **immutable** key/value-bag for storing session and configuration data in client-side applications
 
